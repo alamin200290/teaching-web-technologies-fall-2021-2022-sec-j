@@ -1,4 +1,5 @@
 <?php
+	session_start();
 
 	if(isset($_POST['submit'])){
 		$username = $_POST['username'];
@@ -6,9 +7,10 @@
 
 		if($username != ""){
 			if($password != ""){
-				
-				if($username == $password){
-					header('location: home.html');
+							
+				if($_SESSION['user']['username'] == $username && $_SESSION['user']['password'] == $password){
+					$_SESSION['flag'] = "true";
+					header('location: home.php');
 				}else{
 					echo "invalid username/password";
 				}
