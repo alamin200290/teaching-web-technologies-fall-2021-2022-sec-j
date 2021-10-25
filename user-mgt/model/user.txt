@@ -1,0 +1,4 @@
+XYZ|12|aaalamin9@gmail.com 
+A|12|amin.se.aiub@gmail.com
+XYZ|123|aaalamin9@gmail.com
+alamin|123|alamin@aiub.edu
