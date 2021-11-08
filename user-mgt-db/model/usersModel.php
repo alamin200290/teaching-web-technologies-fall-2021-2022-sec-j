@@ -33,7 +33,7 @@
 		return $result;
 	}
 
-	function getUserByID($id){
+	function getUsersById($id){
 		$con = getConnection();
 		$sql= "select * from users where id={$id}";
 		$result = mysqli_query($con, $sql);
@@ -43,7 +43,7 @@
 
 	function editUser($user){
 		$con = getConnection();
-		$sql= "update users set username='{$user['username']}', password='{$user['password']}', email='{$user['email']}', type='{$user['type']}' where id={$user['id']}";
+		$sql= "update users set username='{$user['username']}', password='{$user['password']}', email='{$user['email']}' where id={$user['id']}";
 		
 		if(mysqli_query($con, $sql)){
 			return true;
