@@ -1,0 +1,41 @@
+
+#d1{
+	/*margin: 10px 5px 25px 10px;*/
+	/*margin-top: ;
+	margin-right: ;
+	margin-bottom: ;
+	margin-left: ;*/	
+
+	/*padding: 10px;
+	padding-top: ;*/
+	position: fixed;
+	/*top: ;
+	left: ;
+	right: ;
+	bottom: ;*/
+
+	position: relative;
+	background: green;
+	width: 350px;
+	height: 220px;
+	border: 2px solid #000
+}
+
+#d2{
+	background: red;
+	width: 100px;
+	height: 100px;
+	border: 2px solid #000;
+	border-radius: 100px;
+}
+
+.c1{
+	position: absolute;
+	left: 120px;
+	top: 60px;
+	background: red;
+	width: 100px;
+	height: 100px;
+	border: 2px solid #000;
+	border-radius: 100px;
+}
